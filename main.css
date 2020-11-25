@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    background-color:black;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+header{
+    /* position:fixed; */
+}
+
+#nav-bar{
+    display:flex;
+    justify-content: flex-end;  
+    background-color:rgb(245, 83, 83);
+    
+}
+
+.navigation--menu__elements{
+    display:flex;
+    padding: 0 10px 0 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+
+.navigation--menu__element{
+    font-size: 20px;
+    padding: 20px 20px;
+    
+}
+
+.navigation--menu__element a{
+    color: white;
+    
+}
+
+.navigation--menu__element:hover{
+    background-color: grey;
+}
+
+#welcome-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    height: 90vh;
+}
+
+#welcome-section h1{
+    color: white;
+}
+
+#welcome-section p{
+    color: rgb(245, 83, 83);
+}
+
+#projects{
+    background-color: rgb(127, 92, 224);
+    padding: 50px;
+}
+
+#projects h2 {
+    text-align: center;
+    color: white;
+}
