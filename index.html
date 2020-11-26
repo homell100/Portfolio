@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <link rel="stylesheet" href="_variables.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header class="header">
         <nav id = "nav-bar">
             <ul class = "navigation--menu__elements">
-                <li class = "navigation--menu__element"><a href="#welcome-section">About</a></li>
-                <li class = "navigation--menu__element"><a href="#projects">Work</a></li>
-                <li class = "navigation--menu__element"><a href="#contact">Contact</a></li>
+                <a href="#welcome-section"><li class = "navigation--menu__element"> About </li></a>
+                <a href="#projects"><li class = "navigation--menu__element">Work</li></a>
+                <a href="#contact"><li class = "navigation--menu__element">Contact</li></a>
             </ul>
         </nav>
     </header>
@@ -22,12 +23,63 @@
             <p>and this is my personal portfolio</p>
         </section>
         <section id ="projects">
-            <h2><u>This is the list of my project developed</u></h2>
+            <div class="projects__title">
+                <h2>This is the list of my developed projects</h2>
+            </div>
+            <div class="grid--projects">
+                <a href="project1/index.html">
+                    <div class="grid--project">
+                        <img src="img/project1.PNG" alt="grid-challenge">
+                        <div class="grid--project__title">
+                            <p>Project 1</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="projecte2.html">
+                    <div class="grid--project">
+                        <img src="img/cat1.jpg" alt="cat-image">
+                        <div class="grid--project__title">
+                            <p>Project 2</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="projecte3.html">
+                    <div class="grid--project">
+                        <img src="img/cat1.jpg" alt="cat-image">
+                        <div class="grid--project__title">
+                            <p>Project 3</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="projecte4.html">
+                    <div class="grid--project">
+                        <img src="img/cat1.jpg" alt="cat-image">
+                        <div class="grid--project__title">
+                            <p>Project 4</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="button-show-all">
+                <a href="#top">Show all <span class= "moving-arrow-right">></span></a>
+            </div>
         </section>
-        <section id ="contact"></section>
+        <section id ="contact">
+            <div class="contact-header">
+                <h2>Do you like what you see?</h2>
+                <p>We can chat throught email or contact me throught one of this links</p>
+            </div>
+            <div class="contact-links">
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="">Twitter</a>
+                <a href="">Send an email</a>
+                <a href="">Call me</a>
+            </div>
+        </section>
     </main>
     <footer>
-
+        &#169; Created by Sergi Justiniano Claramunt
     </footer>
 </body>
 </html>
