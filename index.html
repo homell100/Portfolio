@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="_variables.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <header class="header">
@@ -22,48 +21,31 @@
             <h1>Hi, I am Sergi</h1>
             <p>and this is my personal portfolio</p>
         </section>
+
         <section id ="projects">
-            <div class="projects__title">
-                <h2>This is the list of my developed projects</h2>
-            </div>
+            <h2 class="projects__title"> This is the list of my developed projects</h2>   
             <div class="grid--projects">
-                <a href="project1/index.html">
-                    <div class="grid--project">
-                        <img src="img/project1.PNG" alt="grid-challenge">
-                        <div class="grid--project__title">
-                            <p>Project 1</p>
-                        </div>
-                    </div>
+                <a href="project1/index.html" class="grid--project">
+                    <img src="img/project1.png" alt="grid-challenge">
+                    <p class="grid--project__title">Project 1</p>              
                 </a>
-                <a href="projecte2.html">
-                    <div class="grid--project">
-                        <img src="img/cat1.jpg" alt="cat-image">
-                        <div class="grid--project__title">
-                            <p>Project 2</p>
-                        </div>
-                    </div>
+                <a href="project2/index.html" class="grid--project">         
+                    <img src="img/cat1.jpg" alt="cat-image">
+                    <p class="grid--project__title">Project 2</p>
                 </a>
-                <a href="projecte3.html">
-                    <div class="grid--project">
-                        <img src="img/cat1.jpg" alt="cat-image">
-                        <div class="grid--project__title">
-                            <p>Project 3</p>
-                        </div>
-                    </div>
+                <a href="project3/index.html" class="grid--project">
+                    <img src="img/cat2.jpg" alt="cat-image">
+                    <p class="grid--project__title">Project 3</p>
                 </a>
-                <a href="projecte4.html">
-                    <div class="grid--project">
-                        <img src="img/cat1.jpg" alt="cat-image">
-                        <div class="grid--project__title">
-                            <p>Project 4</p>
-                        </div>
-                    </div>
+                <a href="projecte4.html" class="grid--project">
+                    <img src="img/cat3.jpg" alt="cat-image">
+                    <p class="grid--project__title">Project 4</p>
                 </a>
             </div>
-            <div class="button-show-all">
-                <a href="#top">Show all <span class= "moving-arrow-right">></span></a>
-            </div>
+
+            <a href="#top" class="button-show-all">Show all <span class= "moving-arrow-right">></span></a>
         </section>
+
         <section id ="contact">
             <div class="contact-header">
                 <h2>Do you like what you see?</h2>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  </style>
+</head>
+
+<body class="h-screen flex flex-col justify-center items-center">
+
+  <div class = "container w-11/12 text-center">
+    <div id="card-top" class="container bg-cover bg-no-repeat rounded-t-lg">
+      
+    </div>
+
+    <div id="card-bottom" class="bg-white rounded-b-lg relative">
+      <img src="images/image-victor.jpg" alt="victor-img" class ="rounded-full absolute  inset-x-0 m-auto  -top-12  border-4 border-white">
+      <div class="pt-16 pb-4 ">
+        <p>
+          <span class="font-bold">Victor Crest</span>
+          <span class="text-gray-500">26</span>
+        </p>
+        <p class="text-gray-500 text-sm">
+          London
+        </p>
+      </div>
+  
+      <div class="border-t-2 flex justify-evenly">
+        <div class="p-2 w-28">
+          <p class = "font-bold">
+            80K
+          </p>
+          <p class = "text-gray-500 text-xs">
+            Followers
+          </p >
+        </div>
+  
+        <div class="p-2 w-28">
+          <p class = "font-bold">
+            803K
+          </p>
+          <p class = "text-gray-500 text-xs">
+            Likes
+          </p>
+        </div>
+  
+        <div class="p-2 w-28">
+          <p class = "font-bold">
+            1.4K
+          </p>
+          <p class = "text-gray-500 text-xs">
+            Photos
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="attribution absolute bottom-0">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sergi Justiniano Claramunt</a>.
+  </div>
+</body>
+
+</html>

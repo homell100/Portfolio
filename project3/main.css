@@ -1,0 +1,22 @@
+:root{
+    --background-color: hsl(185, 75%, 39%);
+}
+
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--background-color);
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-position: -3500% -60%, 2500% 150%;
+    background-size: 315px, 315px;
+    background-repeat: no-repeat;
+    /* url(/images/bg-pattern-bottom.svg) */
+}
+
+
+
+#card-top{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    width: 100%;
+}
