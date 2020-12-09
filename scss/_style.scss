@@ -177,14 +177,12 @@ footer{
 @media (max-width: 480px){
     
     #nav-bar{
-        width: fit-content;
-        margin: 0 auto;
-        left: 50%;
-        transform: translateX(-50%);
+        justify-content: center;  
+
     }
     .navigation--menu__elements{
+        
         justify-content: space-between;
-        width: fit-content;
         padding: 0;
     }
 
